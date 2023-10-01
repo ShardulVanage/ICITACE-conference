@@ -42,7 +42,7 @@ export function Hero() {
             {[
               ['Speakers', '5'],
               ['People Attending', '2,091'],
-              ['Venue', 'Hacinco Hotel'],
+              ['Venue', <a href='https://www.google.com/maps/@21.0228148,105.7957637,13z?entry=ttu' className='hover:underline  hover:text-blue-700'>Hacinco Hotel</a>],
               ['Location', 'Vietnam'],
             ].map(([name, value]) => (
               <div key={name}>

@@ -40,7 +40,7 @@ export function Sponsors() {
               key={sponsor.name}
               className="flex items-center justify-center"
             >
-              <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
+              <Image src={sponsor.logo} alt={sponsor.name} unoptimized className='sm:w-[250px]  w-[170px] ' />
             </div>
           ))}
         </div>
